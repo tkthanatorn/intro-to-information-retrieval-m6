@@ -1,0 +1,1 @@
+{"url": "https://app.powerbi.com/view?r=eyJrIjoiMTQyNTZkNjUtMTJkOS00N2MwLWI5ZTYtMjg0NDQ1NDAwNDVmIiwidCI6ImNmODFmMWRmLWRlNTktNGMyOS05MWRhLWEyZGZkMDRhYTc1MSIsImMiOjEwfQ%3D%3D", "title": "Microsoft Power BI", "text": "", "url_lists": []}
