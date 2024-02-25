@@ -28,8 +28,11 @@ Path: `http://localhost:5000/search/manual` <br>
 |---------------|----------------|--------------------|
 | query         | str            | required           |
 
-### Search through Elasticsearch
-Path: `http://localhost:5000/search/elastic` <br>
+### Search through Web Indexer, which combined BM25 and PageRank
+Path: `http://localhost:5000/search/manual/page-rank` <br>
 | **Query Key** | **Query Type** | **Query Required** |
 |---------------|----------------|--------------------|
 | query         | str            | required           |
+
+## Discuss about how this new mix of scores makes finding things better or worse.
+When I use `BM25` and `PageRank` together, I found the order of the result is too much difference when used `PageRank` because of when integrate `PageRank` and `BM25` together the weight of score of `PageRank` affect to the results example when I query about `software engineer` with `/search/manual` the results with the text "software engineer" are stay nearby, but when I query through `/search/manual/page-rank` the results will spread of other too much.
